@@ -23,3 +23,7 @@ body {
     font-size: 100%;
 }
 a {text-decoration: none;}
+
+.corperTxt {
+    color: hsl(262, 52%, 11%, 1) hsl(21, 81%, 28%, 1);
+}
