@@ -30,11 +30,21 @@ a {text-decoration: none;}
 .lodge {
     color: hsl(21, 81%, 28%, 1);
 }
-nav a {
-    color: rgb(39, 36, 36);
-    display: flex;
+nav {
+    display: none;
     flex-direction: column;
-    background-color: white;
-    padding: 10px 20px 10px 10px;
-    font-weight:600;
+    position: absolute;
+    background-color: #ffffff;
+    top: 0vh;
+    left: 0%;
+    padding-top: 3em;
+    padding-bottom: 5em;
+    padding-right: 6em;
+}
+nav a{
+    color: rgb(51, 47, 47);
+    padding: 10px 15px;
+    font-weight: 600;
+    border-bottom: 1px solid rgb(238, 229, 229);
+    border-radius: 5px;
 }
