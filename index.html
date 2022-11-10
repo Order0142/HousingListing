@@ -8,12 +8,17 @@
     <title>Listing</title>
 </head>
 <body>
+    <script>
+        function showNav(){
+            nav.classList.toggle('mobile')
+        }
+    </script>
     <header>
-    <section>
-        <span>
+    <section class="corpersec flex">
+        <div>
             <h4 class="corperTxt">Corpers <span class="lodge">lodge</span></h4>
-        </span>
-        <nav>
+        </div>
+        <nav id="nav">
             <a href="#">Home</a>
             <a href="#">Listing</a>
             <a href="#">About us</a>
