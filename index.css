@@ -58,3 +58,9 @@ nav a{
     
 }
 .mobile {display: flex;}
+
+.introsec div h2{
+    word-wrap: normal;
+    font-size: 2.5em;
+    text-align: center;
+}
