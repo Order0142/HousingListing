@@ -87,7 +87,7 @@ nav a{
 }
 button{
     background-color: white;
-    padding: 1em 1.5em;
+    padding: 1em 1em;
     color: #190E2C;
     font-size: 1.3em;
     font-weight: 600;
@@ -96,7 +96,7 @@ button{
     border: none;
 }
 .getStarted {
-    margin-left: 5vw;
+    margin-left: 4vw;
     margin-right: 3vw;}
 
 .learnMore {
@@ -111,5 +111,15 @@ button{
 .imgBlue{
     position: absolute;
     left: 93.39px;
-    top:705.21px;;
+    top:705.21px;
+}
+.imgWhite{
+    position: absolute;
+    left: 102.95px;
+    top: 719.82px;
+}
+.description {
+    position: absolute;
+    left: 40.09px;
+    top: 1146.42px;
 }
