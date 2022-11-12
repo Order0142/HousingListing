@@ -103,3 +103,13 @@ button{
     background-color: #190E2C;
     color: white;
 }
+.imgYellow{
+    position: absolute;
+    left: 74.61px;
+    z-index: -1;
+}
+.imgBlue{
+    position: absolute;
+    left: 93.39px;
+    top:705.21px;;
+}
