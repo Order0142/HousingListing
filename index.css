@@ -18,6 +18,10 @@
     justify-content: center;
     align-items: center;
 }
+.paddingUndD{
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
 body {
     box-sizing: border-box;
     width: 100%;
@@ -41,6 +45,7 @@ nav {
     padding-top: 3em;
     padding-bottom: 5em;
     padding-right: 6em;
+    z-index: 1;
 }
 nav a{
     color: rgb(51, 47, 47);
@@ -60,15 +65,18 @@ nav a{
 .mobile {display: flex;}
 
 .introsec {
-    background:linear-gradient(180deg, rgba(25, 14, 44, 0) 0%,
-     #190E2C 100%);
     background-image: url(./image/Rectangle\ 5.png);
     background-position: cover;
     padding: 10.5em 0em;
+    position: relative;
 }
 
 .introsec div h2{
     word-wrap: normal;
-    font-size: 2.5em;
+    font-size: 2.7em;
     text-align: center;
+    color: #ffffff;
+}
+.introsec div p{
+    color: white;
 }
