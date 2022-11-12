@@ -67,6 +67,7 @@ nav a{
 .introsec {
     background-image: url(./image/Rectangle\ 5.png);
     background-position: cover;
+    background-repeat: no-repeat;
     padding: 10.5em 0em;
     position: relative;
 }
@@ -76,7 +77,29 @@ nav a{
     font-size: 2.7em;
     text-align: center;
     color: #ffffff;
+    margin-top: -7vh;
 }
 .introsec div p{
+    color: white;
+    text-align: center;
+    padding: 15px 5px;
+    margin-top: 5vh;
+}
+button{
+    background-color: white;
+    padding: 1em 1.5em;
+    color: #190E2C;
+    font-size: 1.3em;
+    font-weight: 600;
+    border-radius: 10px;
+    margin-top: 5vh;
+    border: none;
+}
+.getStarted {
+    margin-left: 5vw;
+    margin-right: 3vw;}
+
+.learnMore {
+    background-color: #190E2C;
     color: white;
 }
