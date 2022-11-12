@@ -89,7 +89,7 @@ button{
     background-color: white;
     padding: 1em 1em;
     color: #190E2C;
-    font-size: 1.3em;
+    font-size: 1em;
     font-weight: 600;
     border-radius: 10px;
     margin-top: 5vh;
@@ -120,6 +120,16 @@ button{
 }
 .description {
     position: absolute;
-    left: 40.09px;
     top: 1146.42px;
+}
+.description h2{
+    color: #190E2C;
+    font-size: 2.5em;
+    text-align: center;
+}
+.description p{
+    font-size: 1.38em;
+    text-align: center;
+    color: #333333;
+    margin-top: 3vh;
 }
