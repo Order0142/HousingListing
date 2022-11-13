@@ -137,12 +137,15 @@ button{
     background-color: #190E2C;
     color: #f5efef;
     border: 2px solid #190E2C;
-    font: 0.5em;
-    padding: ;
+    font: 5px;
+    padding: 15px 15px;
+    margin-left: 25px;
 }
 .checkApartment{
     background-color: white;
     color: #190E2C;
     border: 2px solid #190E2C;
-    font: 0.5em;
+    font: 5px;
+    padding: 15px 15px;
+    margin-left: 10px;
 }
