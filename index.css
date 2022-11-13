@@ -19,8 +19,8 @@
     align-items: center;
 }
 .paddingUndD{
-    padding-top: 1em;
-    padding-bottom: 1em;
+    padding-top: 4em;
+    padding-bottom: 4em;
 }
 body {
     box-sizing: border-box;
@@ -150,3 +150,11 @@ button{
     padding: 15px 15px;
     margin-left: 10px;
 }
+.radisson{
+    padding-left: 10vw;
+}
+.radissontxt{
+    padding-left: 5vw;
+    color:#190E2C;
+}
+.text2
