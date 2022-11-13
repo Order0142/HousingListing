@@ -87,17 +87,17 @@ nav a{
 }
 button{
     background-color: white;
-    padding: 1em 1em;
+    padding: 1em 1.5em;
     color: #190E2C;
     font-size: 1em;
-    font-weight: 600;
-    border-radius: 10px;
+    font-weight: 400;
+    border-radius: 5px;
     margin-top: 5vh;
     border: none;
 }
 .getStarted {
-    margin-left: 4vw;
-    margin-right: 3vw;}
+    margin-left: 8vw;
+    margin-right: 10vw;}
 
 .learnMore {
     background-color: #190E2C;
@@ -132,4 +132,17 @@ button{
     text-align: center;
     color: #333333;
     margin-top: 3vh;
+}
+.viewApartment{
+    background-color: #190E2C;
+    color: #f5efef;
+    border: 2px solid #190E2C;
+    font: 0.5em;
+    padding: ;
+}
+.checkApartment{
+    background-color: white;
+    color: #190E2C;
+    border: 2px solid #190E2C;
+    font: 0.5em;
 }
