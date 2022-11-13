@@ -103,35 +103,36 @@ button{
     background-color: #190E2C;
     color: white;
 }
+.luxuryApart{
+    position: relative;
+}
 .imgYellow{
-    position: absolute;
-    left:60px;
+    position: relative;
+    left: 16vw;
     z-index: -1;
 }
 .imgBlue{
     position: absolute;
     left: 70px;
-    top: 690px;
+    top: 12px;
 }
 .imgWhite{
     position: absolute;
     left: 79px;
-    top: 705px;
+    top: 25px;
 }
-.description {
-    position: absolute;
-    top: 1146.42px;
-}
+
 .description h2{
     color: #190E2C;
     font-size: 2.5em;
     text-align: center;
+    margin-top: 10vh;
 }
 .description p{
     font-size: 1.38em;
     text-align: center;
     color: #333333;
-    margin-top: 3vh;
+    margin-top: 5vh;
 }
 .viewApartment{
     background-color: #190E2C;
