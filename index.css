@@ -151,8 +151,10 @@ button{
     margin-left: 10px;
 }
 .radisson{
-    padding-top: 10px;
+    padding-top: 20px;
     padding-left: 10vw;
+    box-shadow: 5px 5px rgb(243, 239, 239);
+    border-radius: 10px;
 
 }
 .radissontxt{
