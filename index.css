@@ -157,4 +157,14 @@ button{
     padding-left: 5vw;
     color:#190E2C;
 }
-.text2
+.text2{
+    padding-left: 5vw;
+    color: #FFA219;
+}
+.radissonbtn{
+    background-color: #190E2C;
+    color: white;
+    font-size: 10px;
+    padding: 10px 20px;
+    margin: 10px;
+}
