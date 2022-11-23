@@ -178,3 +178,13 @@ button{
     padding: 10px 20px;
     margin: 10px;
 }
+#price{
+    margin-top: -3vh;
+    margin-bottom: 2vh;
+}
+.availability{
+    background-color: #FFA219;
+    color:white;
+    margin-left: 15vw;
+
+}
