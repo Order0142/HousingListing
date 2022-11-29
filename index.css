@@ -133,7 +133,7 @@ button{
     margin-top: 10vh;
 }
 .description p{
-    font-size: 1.38em;
+    font-size: 1.3em;
     text-align: center;
     color: #333333;
     margin-top: 5vh;
@@ -185,6 +185,6 @@ button{
 .availability{
     background-color: #FFA219;
     color:white;
-    margin-left: 15vw;
+    margin-left: 5vw;
 
 }
