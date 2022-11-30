@@ -206,3 +206,21 @@ button{
     padding-top: 3vh;
 
 }
+@media screen and (min-width: 500px) {
+    nav {
+        display: flex;
+        flex-direction: row;
+        position: fixed;
+        background-color: inherit;
+        padding-top: 0;
+        padding-bottom: 0em;
+        padding-right: em;
+        z-index: 1;
+    }
+    .corpersec { 
+        justify-content: space-between;
+        align-items: center;
+        width: 80%;
+        padding-left: 2em;
+        padding-top: 0.5em;
+}
