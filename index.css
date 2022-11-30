@@ -207,20 +207,48 @@ button{
 
 }
 @media screen and (min-width: 500px) {
+    body{
+        width: 100%;
+        max-width: 100%;
+    }
+    h4 {
+        font-size: 1.7em;
+        padding-left: 1em;
+        padding-top: 1.5;
+    }
     nav {
         display: flex;
         flex-direction: row;
-        position: fixed;
+        position: relative;
         background-color: inherit;
         padding-top: 0;
         padding-bottom: 0em;
-        padding-right: em;
-        z-index: 1;
+        padding-right: 0em;
+        
+    }
+    nav a{
+        color: rgb(51, 47, 47);
+        padding-top: 1.5em;
+        padding-right: 2em;
+        font-size: 1.2em;
+        font-weight: 500;
+        border-bottom: none;
+        border-radius: none;}
+
+    .signUp{
+        border: 1px solid hsla(262, 52%, 11%, 1);
+        background-color: hsla(262, 52%, 11%, 1);
     }
     .corpersec { 
+        display: flex;
         justify-content: space-between;
         align-items: center;
-        width: 80%;
-        padding-left: 2em;
-        padding-top: 0.5em;
+        background-color: hsla(18, 87%, 97%, 1);
+        width: 100%;
+        padding-left: 0em;
+        padding-top: 0em;}
+
+    .navshortcut {
+        display: none;
+    }
 }
