@@ -277,14 +277,30 @@ button{
         padding-right: 1em;
     }
     .introsec div p{
-        color:#190E2C;
+        color:#333333;
         font-size: 1em;
         text-align: left;
-        font-weight: 300;
+        font-weight: 100;
         padding: 1em 2.2em;
         margin-top: 0vh;
     }
     .becker{
         display: block;
+    }
+    .getStarted {
+        background-color: #190E2C;
+        color: white;
+        border: 1px solid #190E2C;
+        padding-left: 2vw;
+        padding-right: 2vw;
+        margin-left: 3vw;
+        margin-right: 1vw;}
+    
+    .learnMore {
+        background-color: white;
+        color:#190E2C;
+        padding-left: 2vw;
+        padding-right: 2vw;
+        border: 1px solid #190E2C;
     }
 }
