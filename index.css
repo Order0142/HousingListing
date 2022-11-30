@@ -191,3 +191,12 @@ button{
     background-color:#f59506;
     color: #ffffff;
 }
+.corpersLodge{
+    font-size: 2em;
+    text-align: center;
+    padding: 4px;
+}
+.pLodge{
+    font-size: 1.2em;
+    text-align: center;
+}
