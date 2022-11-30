@@ -186,5 +186,8 @@ button{
     background-color: #FFA219;
     color:white;
     margin-left: 5vw;
-
+}
+.seeBtn {
+    background-color:#f59506;
+    color: #ffffff;
 }
