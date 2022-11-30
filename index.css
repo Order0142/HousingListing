@@ -89,6 +89,9 @@ nav a{
     padding: 15px 5px;
     margin-top: 5vh;
 }
+.becker {
+    display: none;
+}
 button{
     background-color: white;
     padding: 1em 1.5em;
@@ -223,7 +226,7 @@ button{
         background-color: inherit;
         padding-top: 0;
         padding-bottom: 0em;
-        padding-right: 0em;
+        padding-right: 3em;
         
     }
     nav a{
@@ -235,9 +238,12 @@ button{
         border-bottom: none;
         border-radius: none;}
 
-    .signUp{
-        border: 1px solid hsla(262, 52%, 11%, 1);
+    #signUp {
+        color: white;
+        border: none solid red;
         background-color: hsla(262, 52%, 11%, 1);
+        padding: 1em;
+        margin-top: 9px;
     }
     .corpersec { 
         display: flex;
@@ -250,5 +256,35 @@ button{
 
     .navshortcut {
         display: none;
+    }
+    .introsec {
+        display: flex;
+        flex-direction: row;
+        width: 90%;
+        background-image: none;
+        background-position: cover;
+        background-repeat: no-repeat;
+        padding: 2em 0em;
+        position: relative;
+    }
+    .introsec div h2{
+        word-wrap: normal;
+        font-size: 3.5em;
+        text-align: center;
+        color:#190E2C;
+        margin-top: 0vh;
+        padding-top: 1.5em;
+        padding-right: 1em;
+    }
+    .introsec div p{
+        color:#190E2C;
+        font-size: 1em;
+        text-align: left;
+        font-weight: 300;
+        padding: 1em 2.2em;
+        margin-top: 0vh;
+    }
+    .becker{
+        display: block;
     }
 }
