@@ -199,4 +199,10 @@ button{
 .pLodge{
     font-size: 1.2em;
     text-align: center;
+    color: #211533;
+}
+.cityImg{
+    width: 100%;
+    padding-top: 3vh;
+
 }
