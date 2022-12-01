@@ -18,6 +18,9 @@
     justify-content: center;
     align-items: center;
 }
+.whitebckg{
+    background-color: white;
+}
 .paddingUndD{
     padding-top: 2em;
     padding-bottom: 1em;
@@ -361,5 +364,13 @@ button{
         font: 5px;
         padding: 15px 15px;
         margin-left: 10px;
+    }
+    .hotelSection{
+        background-color: #F3F3F3;
+    }
+    .hotels{
+        display: flex;
+        flex-direction: row;
+        margin: 10px;
     }
 }
