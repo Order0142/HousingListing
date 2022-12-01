@@ -373,6 +373,12 @@ button{
         flex-direction: row;
         margin: 10px;
     }
+    .radisson{
+        padding-top: 20px;
+        padding-left: vw;
+        box-shadow: 5px 5px rgb(243, 239, 239);
+        border-radius: 10px;
+    }
     .radissontxt{
         padding-left: 1vw;
         color:#190E2C;
@@ -391,12 +397,17 @@ button{
         margin: 5px;
     }
     #price{
+        display: flex;
+        flex-direction: row;
         margin-top: -3vh;
         margin-bottom: 2vh;
     }
     .availability{
         background-color: #BA7004;
         color:white;
-        margin-left: 5vw;
+        margin-left: 0vw;
+    }
+    .price {
+        padding-left: 6px;
     }
 }
