@@ -307,23 +307,24 @@ button{
         display: flex;
         flex-direction: row;
         background-color: hsla(21, 81%, 96%, 1);
+        padding: 5vh;
     }
     .imgYellow{
         position: relative;
-        top: 3vh;
+        top: 1vh;
         left: 10vw;
         z-index: 1;
     }
     .imgBlue{
         position: absolute;
-        left: 15vw;
-        top: 6vh;
+        left: 16vw;
+        top: 12vh;
         z-index: 1;
     }
     .imgWhite{
         position: absolute;
-        left: 20.6vw;
-        top: 7vh;
+        left: 16.6vw;
+        top: 13.5vh;
         z-index: 1;
     }
     .description {
@@ -339,7 +340,7 @@ button{
         margin-top: 5vh;
     }
     .description p{
-        font-size: 1.3em;
+        font-size: 1.2em;
         text-align: justify;
         color: #333333;
         margin-top: 3vh;
