@@ -367,17 +367,24 @@ button{
     }
     .hotelSection{
         background-color: #F3F3F3;
+        padding-left: 5px;
+        padding-right: 5px;
     }
     .hotels{
         display: flex;
         flex-direction: row;
         margin: 10px;
     }
+    .recomm{
+        text-align: justify;
+        padding-bottom: 2vh;
+    }
     .radisson{
         padding-top: 20px;
         padding-left: vw;
         box-shadow: 5px 5px rgb(243, 239, 239);
         border-radius: 10px;
+        margin: 5px;
     }
     .radissontxt{
         padding-left: 1vw;
@@ -409,5 +416,10 @@ button{
     }
     .price {
         padding-left: 6px;
+    }
+    .container{
+        display: grid;
+        grid-template-columns:auto auto auto auto;
+        grid-column-gap: 15px;
     }
 }
