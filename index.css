@@ -19,8 +19,8 @@
     align-items: center;
 }
 .paddingUndD{
-    padding-top: 3em;
-    padding-bottom: 2em;
+    padding-top: 2em;
+    padding-bottom: 1em;
 }
 .paddingLndR{
     padding-left: 5vw;
@@ -302,5 +302,63 @@ button{
         padding-left: 2vw;
         padding-right: 2vw;
         border: 1px solid #190E2C;
+    }
+    .luxuryApart{
+        display: flex;
+        flex-direction: row;
+        background-color: hsla(21, 81%, 96%, 1);
+    }
+    .imgYellow{
+        position: relative;
+        top: 3vh;
+        left: 10vw;
+        z-index: 1;
+    }
+    .imgBlue{
+        position: absolute;
+        left: 15vw;
+        top: 6vh;
+        z-index: 1;
+    }
+    .imgWhite{
+        position: absolute;
+        left: 20.6vw;
+        top: 7vh;
+        z-index: 1;
+    }
+    .description {
+        width: 55%;
+        padding-left: 25vw;
+        padding-top: 10vh;
+        padding-bottom: 10vh;
+    }
+    .description h2{
+        color: #190E2C;
+        font-size: 2.5em;
+        text-align:justify;
+        margin-top: 5vh;
+    }
+    .description p{
+        font-size: 1.3em;
+        text-align: justify;
+        color: #333333;
+        margin-top: 3vh;
+        padding-left: 0;
+    }
+    .viewApartment{
+        background-color: #190E2C;
+        color: #f5efef;
+        border: 1px solid #190E2C;
+        font: 5px;
+        padding: 15px 15px;
+        margin-left: 0px;
+    }
+    .checkApartment{
+        background-color: white;
+        color: #190E2C;
+        border: 1px solid #190E2C;
+        font: 5px;
+        padding: 15px 15px;
+        margin-left: 10px;
     }
 }
