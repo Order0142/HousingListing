@@ -189,12 +189,12 @@ button{
     margin-bottom: 2vh;
 }
 .availability{
-    background-color: #FFA219;
+    background-color: #BA7004;
     color:white;
     margin-left: 5vw;
 }
 .seeBtn {
-    background-color:#f59506;
+    background-color:#BA7004;
     color: #ffffff;
 }
 .corpersLodge{
@@ -372,5 +372,31 @@ button{
         display: flex;
         flex-direction: row;
         margin: 10px;
+    }
+    .radissontxt{
+        padding-left: 1vw;
+        color:#190E2C;
+    }
+    .text2{
+        padding-left: 1vw;
+        color: #FFA219;
+        padding-top: 1vh;
+        padding-bottom: 1vh;
+    }
+    .radissonbtn{
+        background-color: #190E2C;
+        color: white;
+        font-size: 10px;
+        padding: 10px 20px;
+        margin: 5px;
+    }
+    #price{
+        margin-top: -3vh;
+        margin-bottom: 2vh;
+    }
+    .availability{
+        background-color: #BA7004;
+        color:white;
+        margin-left: 5vw;
     }
 }
