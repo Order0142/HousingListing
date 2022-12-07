@@ -212,6 +212,35 @@ button{
     padding-top: 3vh;
 
 }
+.footer{
+    margin-top: 5em;
+    margin-bottom: 3em;
+    width: 100%;
+    max-width: 90%;
+    display: flex;
+    flex-direction: column;
+}
+.fSec1 {
+    margin-top: -5vh;
+}
+.fSec2 {
+    display: flex;
+    flex-direction: column;
+    margin-left: -30vw;
+    padding-top: 15px;
+}
+.margin {
+    margin-right: 0vw;
+}
+.fSec1 div h4{
+    font-size: 3em;
+}
+.fSec2 div h3 {
+    padding-bottom: 10px;  
+}
+.fSec2 div p {
+    padding-bottom: 10px;  
+}
 @media screen and (min-width: 500px) {
     body{
         width: 100%;
@@ -437,12 +466,13 @@ button{
         display: none;
     }
     
-    .lastseeBtn {
+    .seeBtn {
         background-color:#BA7004;
         color: #ffffff;
         margin-top: 3vh;
         align-items: center;
     }
+    /*
     .footer{
         margin-top: 5em;
         margin-bottom: 3em;
@@ -454,9 +484,7 @@ button{
         width: 40%;
     }
     .fSec2 {
-        width: 60%;
-        
-        
+        width: 60%;  
     }
     .margin {
         margin-right: 5vw;
@@ -466,12 +494,10 @@ button{
     }
     .fSec2 div h3 {
         font-size: 1em;
-        padding-bottom: 10px;
-        
+        padding-bottom: 10px;  
     }
     .fSec2 div p {
         font-size: 1em;
-        padding-bottom: 10px;
-        
+        padding-bottom: 10px;  
     }
 }
