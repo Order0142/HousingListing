@@ -254,7 +254,7 @@ button{
         align-items: center;
         background-color: hsla(18, 87%, 97%, 1);
         width: 100%;
-        padding-left: 0em;
+        padding-left: 1em;
         padding-top: 0em;}
 
     .navshortcut {
@@ -422,6 +422,7 @@ button{
             background-color:#BA7004;
             color: #ffffff;
             margin-top: 3vh;
+            
     }
     .container{
         display: grid;
@@ -434,5 +435,15 @@ button{
     }
     .pLodge{
         display: none;
+    }
+    .lastseeBtn {
+        background-color:#BA7004;
+        color: #ffffff;
+        margin-top: 3vh;
+        align-items: center;
+    }
+    .footer{
+        margin-top: 5em;
+        margin-bottom: 3em;
     }
 }
