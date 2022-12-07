@@ -236,7 +236,7 @@ button{
         color: rgb(51, 47, 47);
         padding-top: 1.5em;
         padding-right: 2em;
-        font-size: 1.2em;
+        font-size: 1em;
         font-weight: 500;
         border-bottom: none;
         border-radius: none;}
@@ -262,8 +262,9 @@ button{
     }
     .introsec {
         display: flex;
-        flex-direction: row;
-        width: 90%;
+        flex-direction:row;
+        justify-content: space-between;
+        width: 95%;
         background-image: none;
         background-position: cover;
         background-repeat: no-repeat;
@@ -272,16 +273,16 @@ button{
     }
     .introsec div h2{
         word-wrap: normal;
-        font-size: 3.5em;
-        text-align: center;
+        font-size: 4em;
+        text-align: left;
         color:#190E2C;
         margin-top: 0vh;
         padding-top: 1.5em;
-        padding-right: 1em;
+        padding-left: 0.6em;
     }
     .introsec div p{
         color:#333333;
-        font-size: 1em;
+        font-size: 1.2em;
         text-align: left;
         font-weight: 100;
         padding: 1em 2.2em;
@@ -380,8 +381,8 @@ button{
         padding-bottom: 2vh;
     }
     .radisson{
-        padding-top: 20px;
-        padding-left: vw;
+        padding-top: 0px;
+        padding-left: 0vw;
         box-shadow: 5px 5px rgb(243, 239, 239);
         border-radius: 10px;
         margin: 5px;
@@ -415,11 +416,23 @@ button{
         margin-left: 0vw;
     }
     .price {
-        padding-left: 6px;
+        padding-left: 6px;}
+
+    .seeBtn {
+            background-color:#BA7004;
+            color: #ffffff;
+            margin-top: 3vh;
     }
     .container{
         display: grid;
         grid-template-columns:auto auto auto auto;
         grid-column-gap: 15px;
+        margin-top: 8vh;
+    }
+    .corpersLodge{
+        display: none;
+    }
+    .pLodge{
+        display: none;
     }
 }
